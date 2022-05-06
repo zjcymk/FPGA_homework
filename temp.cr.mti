@@ -1,8 +1,1 @@
-C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv {1 {vlog -work work -vopt -sv C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv
-Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
--- Compiling module vending_machine
 
-Top level modules:
-	vending_machine
-
-} {} {}}

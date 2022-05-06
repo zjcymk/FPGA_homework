@@ -24,14 +24,13 @@ enum logic [2:0] {
     S5
  } state;
 
-logic       refund_key;
-logic [2:0] goods;
+logic       refund_key; //refund signal
+logic [2:0] goods;  //goods amount
 logic [3:0] st_next; //next state
 logic [3:0] st_cur;  //current state
 logic [7:0] count;   //refund Timer
 logic [3:0] coins;   //Amount
-logic       refund;
-
+logic       refund; 
 
 logic [3:0] change_r;
 logic [3:0] sell_r  ;
