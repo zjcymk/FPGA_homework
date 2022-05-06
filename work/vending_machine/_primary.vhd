@@ -15,7 +15,7 @@ entity vending_machine is
         coin            : in     vl_logic_vector(1 downto 0);
         keys            : in     vl_logic_vector(3 downto 0);
         change          : out    vl_logic_vector(3 downto 0);
-        sell            : out    vl_logic_vector(2 downto 0)
+        sell            : out    vl_logic_vector(3 downto 0)
     );
     attribute mti_svvh_generic_type : integer;
     attribute mti_svvh_generic_type of g1 : constant is 1;

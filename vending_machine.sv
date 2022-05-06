@@ -5,7 +5,7 @@ module vending_machine (
     input [3:0] keys,
 
     output [3:0]change,
-    output [2:0]sell    //Goods sold
+    output [3:0]sell    //Goods sold
 );
 
 parameter g1 = 2'd1;
@@ -25,7 +25,7 @@ enum logic [2:0] {
  } state;
 
 logic       refund_key;
-logic [3:0] goods;
+logic [2:0] goods;
 logic [3:0] st_next; //next state
 logic [3:0] st_cur;  //current state
 logic [7:0] count;   //refund Timer
@@ -147,7 +147,7 @@ always_ff @( posedge clk ) begin
         refund <= 1'b0;
 end
 
-/****Generate pulse****/
+/****Gene rate pulse****/
 always_ff @( posedge clk ) begin
     if (!rstn) begin
         refund_reg1 <= 1'b0;
