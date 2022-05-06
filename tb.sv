@@ -3,9 +3,9 @@ module tb ();
     logic         clk;
     logic         rstn ;
     logic[1:0]    coin ;
-    logic[1:0]    goods;
-    logic[1:0]    change ;
-    logic         sell ;
+    logic[3:0]    keys;
+    logic[3:0]    change ;
+    logic[2:0]    sell ;
 
     //clock generating
 
@@ -14,21 +14,23 @@ module tb ();
     initial begin
         clk = 1;
         rstn = 0;
-        #5
-        rstn = 1;
-        #5
-        coin = 2'b01;
-        #2
-        coin = 2'b00;
-        goods = 2'd2;
+        #5 rstn = 1;
+        #5 coin = 2'b10;
+        #2 coin = 2'b00;
+        #2 keys = 4'b0100;
+        #5 keys = 4'd0;
+        #10 coin = 2'b10;
+        #2 keys = 4'b0010;
+           coin = 2'b00;
+        #5 keys = 4'd0;
+        
     end
 
     vending_machine uut(
         .clk    (clk),
         .rstn   (rstn),
         .coin   (coin),
-        .goods  (goods),
-        .key    (key),
+        .keys   (keys),
     
         .change  (change),
         .sell    (sell)
