@@ -16,7 +16,6 @@ parameter coin5 = 2'b10; //2 yuan coin
 parameter timer = 8'd59; //count time
 /****machine state decode*****/
 enum logic [2:0] { 
-    znt_1115190228,
     IDLE,
     S1,
     S2,
@@ -24,13 +23,13 @@ enum logic [2:0] {
     S5
  } state;
 
-logic       refund_key; //refund signal
-logic [2:0] goods;  //goods amount
-logic [3:0] st_next; //next state
-logic [3:0] st_cur;  //current state
-logic [7:0] count;   //refund Timer
-logic [3:0] coins;   //Amount
-logic       refund; 
+logic       refund_key; //refund key signal
+logic [2:0] goods;      //goods amount
+logic [3:0] st_next;    //next state
+logic [3:0] st_cur;     //current state
+logic [7:0] count;      //refund Timer
+logic [3:0] coins;      //Amount
+logic       refund;     //refund signal
 
 logic [3:0] change_r;
 logic [3:0] sell_r  ;
@@ -113,7 +112,6 @@ always_ff @( posedge clk ) begin
     end else begin
         change_r <= 1'b0;
     end
-        
 
 end
 /******Amount******/

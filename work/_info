@@ -2,53 +2,75 @@ m255
 K3
 13
 cModel Technology
-dC:\Users\Tom\Desktop\FPGA\L1
+Z0 dC:\Users\Tom\Desktop\FPGA\L1
 T_opt
-V;Y7]?bM[=^dV7zBLIBDgz3
-04 2 4 work tb fast 0
-=56-2cf05d9e6e55-627510d0-c2-23a8
-o-quiet -auto_acc_if_foreign -work work +acc
-n@_opt
-OL;O;10.1c;51
-vtb
-Z0 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
-IQg9?d<N6Z8PE=Dz:K7zEN2
-VV@Xn<HnSRM[I5c1?BH]3a3
-S1
-Z1 dC:\Users\Tom\Desktop\FPGA\vending_machine
-w1651839157
-8C:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv
-FC:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv
-L0 2
-Z2 OL;L;10.1c;51
-r1
-31
-Z3 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
-!s105 tb_sv_unit
-!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv|
+Z1 V;Y7]?bM[=^dV7zBLIBDgz3
+Z2 04 2 4 work tb fast 0
+Z3 =56-2cf05d9e6e55-627510d0-c2-23a8
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 n@_opt
+Z6 OL;O;10.1c;51
+Z7 dC:\Users\Tom\Desktop\FPGA\L1
+Xdefines_sv_unit
+Z8 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
 !i10b 1
-!s100 fVf8e7z<EC]>o4=BNkH8I3
-!s85 0
-!s108 1651839179.671000
-!s107 C:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv|
-vvending_machine
-Z4 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
-IGn671flJ53GEJKm5Yca8?1
-Vlm^2NY?^b_VmmRc1zg9L]1
+!s100 DhnO<a<;WX;j2j0dEC_dO0
+Iadj1TT8;6l3aI_m3cC1?Y0
+Vadj1TT8;6l3aI_m3cC1?Y0
+!i103 1
 S1
-R1
-w1651837886
-8C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv
-FC:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv
-L0 1
-R2
+Z9 dC:\Users\Tom\Desktop\FPGA\vending_machine
+w1652186679
+8C:/Users/Tom/Desktop/RISC-V/new/defines.sv
+FC:/Users/Tom/Desktop/RISC-V/new/defines.sv
+L0 96
+Z10 OL;L;10.1c;51
+r1
+!s85 0
+31
+!s108 1652186683.191000
+!s107 C:/Users/Tom/Desktop/RISC-V/new/defines.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Tom/Desktop/RISC-V/new/defines.sv|
+Z11 o-work work -sv -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+vtb
+R8
+Z12 IQg9?d<N6Z8PE=Dz:K7zEN2
+Z13 VV@Xn<HnSRM[I5c1?BH]3a3
+S1
+R9
+Z14 w1651839157
+Z15 8C:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv
+Z16 FC:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv
+L0 2
+R10
 r1
 31
-R3
-!s100 WNSB[UcQfoCO:o>^fEQGa0
-!s105 vending_machine_sv_unit
-!s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv|
-!s108 1651839179.608000
-!s107 C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv|
+R11
+Z17 !s105 tb_sv_unit
+Z18 !s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv|
+!i10b 1
+Z19 !s100 fVf8e7z<EC]>o4=BNkH8I3
+!s85 0
+Z20 !s108 1651839179.671000
+Z21 !s107 C:/Users/Tom/Desktop/FPGA/vending_machine/tb.sv|
+vvending_machine
+R8
+Z22 IGn671flJ53GEJKm5Yca8?1
+Z23 Vlm^2NY?^b_VmmRc1zg9L]1
+S1
+R9
+Z24 w1651837886
+Z25 8C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv
+Z26 FC:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv
+L0 1
+R10
+r1
+31
+R11
+Z27 !s100 WNSB[UcQfoCO:o>^fEQGa0
+Z28 !s105 vending_machine_sv_unit
+Z29 !s90 -reportprogress|300|-work|work|-vopt|-sv|C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv|
+Z30 !s108 1651839179.608000
+Z31 !s107 C:/Users/Tom/Desktop/FPGA/vending_machine/vending_machine.sv|
 !i10b 1
 !s85 0
